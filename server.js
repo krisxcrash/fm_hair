@@ -11,28 +11,28 @@ function handleRequest(req, res) {
 
     switch (path) {
         case "/":
-        fs.readFile(__dirname + "/index.html", function(err, data) {
+        fs.readFile(__dirname + "/index", function(err, data) {
             res.writeHead(200, {"Content-Type": "text/html"});
             res.end(data);
         });
         break;
 
         case "/about":
-        fs.readFile(__dirname + "/about.html", function(err, data) {
+        fs.readFile(__dirname + "/about", function(err, data) {
             res.writeHead(200, {"Content-Type": "text/html"});
             res.end(data);
         });
         break;
 
         case "/contact":
-        fs.readFile(__dirname + "/contact.html", function(err, data) {
+        fs.readFile(__dirname + "/contact", function(err, data) {
             res.writeHead(200, {"Content-Type": "text/html"});
             res.end(data);
         });
         break;
 
         case "/gallery":
-        fs.readFile(__dirname + "/gallery.html", function(err, data) {
+        fs.readFile(__dirname + "/gallery", function(err, data) {
             res.writeHead(200, {"Content-Type": "text/html"});
             res.end(data);
         });
