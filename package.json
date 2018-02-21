@@ -1,26 +1,28 @@
 {
-    "title": "FM_Hair Website",
-    "name": "FM_Hair",
+    "title": "fm_hair",
+    "name": "fm_hair",
     "version": "4.0.0",
-    "description": "A portfolio website for FM_Hair.",
+    "description": "A salon website built for FM",
     "keywords": [
         "css",
         "sass",
         "html",
-        "responsive",
+        "responsive"
     ],
-    "homepage": "fm_hair",
+    "homepage": "https://github.com/krisxcrash",
     "license": "MIT",
     "author": "Kristine Martin",
     "repository": {
         "type": "git",
-        "url": "https://github.com/krisxcrash/fm_hair"
+        "url": "https://github.com/krisxcrash/fm_hair.git"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1"
+        "jquery.easing": "^1.4.1",
+        "magnific-popup": "^1.1.0",
+        "scrollreveal": "3.3.6"
     },
     "devDependencies": {
         "browser-sync": "2.23.6",
